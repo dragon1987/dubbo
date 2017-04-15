@@ -16,10 +16,7 @@
 package com.alibaba.dubbo.rpc.protocol.dubbo;
 
 
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.*;
 
 import com.alibaba.dubbo.common.Constants;
 import com.alibaba.dubbo.common.URL;
@@ -32,6 +29,7 @@ import com.alibaba.dubbo.rpc.protocol.dubbo.support.ProtocolUtils;
  * @author chao.liuc
  *
  */
+@Ignore
 public class DubboLazyConnectTest {
     
     @BeforeClass

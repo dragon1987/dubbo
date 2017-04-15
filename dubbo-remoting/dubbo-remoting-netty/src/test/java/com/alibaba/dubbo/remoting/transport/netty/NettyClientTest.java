@@ -20,6 +20,7 @@ import java.util.List;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.alibaba.dubbo.common.URL;
@@ -33,6 +34,7 @@ import com.alibaba.dubbo.remoting.exchange.Exchangers;
  * Date: 5/3/11
  * Time: 5:47 PM
  */
+@Ignore
 public class NettyClientTest {
     static Server server;
 

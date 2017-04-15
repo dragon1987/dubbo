@@ -21,6 +21,7 @@ import static org.junit.Assert.assertThat;
 import static org.junit.Assert.fail;
 import static org.junit.matchers.JUnitMatchers.containsString;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.alibaba.dubbo.common.extension.ExtensionLoader;
@@ -29,6 +30,7 @@ import com.alibaba.dubbo.remoting.Transporter;
 /**
  * @author ding.lid
  */
+@Ignore
 public class ClientsTest {
 
     @Test

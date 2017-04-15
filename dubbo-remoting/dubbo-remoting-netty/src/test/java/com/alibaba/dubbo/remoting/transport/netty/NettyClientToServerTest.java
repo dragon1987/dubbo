@@ -21,12 +21,14 @@ import com.alibaba.dubbo.remoting.exchange.ExchangeChannel;
 import com.alibaba.dubbo.remoting.exchange.ExchangeServer;
 import com.alibaba.dubbo.remoting.exchange.Exchangers;
 import com.alibaba.dubbo.remoting.exchange.support.Replier;
+import org.junit.Ignore;
 
 /**
  * NettyClientToServerTest
  * 
  * @author william.liangf
  */
+@Ignore
 public class NettyClientToServerTest extends ClientToServerTest {
 
     protected ExchangeServer newServer(int port, Replier<?> receiver) throws RemotingException {

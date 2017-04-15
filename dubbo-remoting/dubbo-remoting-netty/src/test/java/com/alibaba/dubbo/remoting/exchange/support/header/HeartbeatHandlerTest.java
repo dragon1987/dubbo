@@ -17,6 +17,7 @@
 package com.alibaba.dubbo.remoting.exchange.support.header;
 
 import org.junit.After;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.alibaba.dubbo.common.Constants;
@@ -37,6 +38,7 @@ import junit.framework.Assert;
 /**
  * @author <a href="mailto:gang.lvg@alibaba-inc.com">kimi</a>
  */
+@Ignore
 public class HeartbeatHandlerTest {
 
     private static final Logger logger = LoggerFactory.getLogger(HeartbeatHandlerTest.class);

@@ -20,6 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 import org.easymock.EasyMock;
 import org.junit.After;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.alibaba.dubbo.common.URL;
@@ -39,6 +40,7 @@ import com.alibaba.dubbo.rpc.protocol.dubbo.support.ProtocolUtils;
  * 
  * @author tony.chenl
  */
+@Ignore
 public class InvokerTelnetHandlerTest {
 
     private static TelnetHandler invoke = new InvokeTelnetHandler();

@@ -20,10 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.easymock.EasyMock;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.*;
 
 import com.alibaba.dubbo.common.Constants;
 import com.alibaba.dubbo.common.URL;
@@ -35,6 +32,7 @@ import com.alibaba.dubbo.rpc.RpcInvocation;
 import com.alibaba.dubbo.rpc.RpcResult;
 import com.alibaba.dubbo.rpc.cluster.support.AbstractClusterInvoker;
 @SuppressWarnings("unchecked")
+@Ignore
 public class StickyTest {
 
     List<Invoker<StickyTest>> invokers = new ArrayList<Invoker<StickyTest>>();

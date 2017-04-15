@@ -26,6 +26,7 @@ import junit.framework.Assert;
 import org.easymock.EasyMock;
 import org.junit.Before;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.alibaba.dubbo.common.Constants;
@@ -51,6 +52,7 @@ import com.alibaba.dubbo.rpc.cluster.loadbalance.RoundRobinLoadBalance;
  *
  */
 @SuppressWarnings("rawtypes")
+@Ignore
 public class AbstractClusterInvokerTest {
     List<Invoker<IHelloService>> invokers = new ArrayList<Invoker<IHelloService>>();
     List<Invoker<IHelloService>> selectedInvokers = new ArrayList<Invoker<IHelloService>>();

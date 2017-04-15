@@ -19,6 +19,7 @@ import static org.junit.Assert.assertEquals;
 
 import org.easymock.EasyMock;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.alibaba.dubbo.common.Constants;
@@ -38,6 +39,7 @@ import com.alibaba.dubbo.rpc.protocol.dubbo.support.DemoService;
  * @author tony.chenl
  * TODO 暂时依赖callback集成测试，后续补充
  */
+@Ignore
 public class FutureFilterTest {
     Filter                    eventFilter = new FutureFilter();
     private static RpcInvocation invocation;

@@ -26,6 +26,7 @@ import junit.framework.Assert;
 import org.easymock.EasyMock;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.alibaba.dubbo.common.URL;
@@ -44,6 +45,7 @@ import com.alibaba.dubbo.rpc.cluster.Directory;
  *
  */
 @SuppressWarnings("unchecked")
+@Ignore
 public class FailfastClusterInvokerTest {
     List<Invoker<FailfastClusterInvokerTest>> invokers = new ArrayList<Invoker<FailfastClusterInvokerTest>>();
     URL url = URL.valueOf("test://test:11/test");

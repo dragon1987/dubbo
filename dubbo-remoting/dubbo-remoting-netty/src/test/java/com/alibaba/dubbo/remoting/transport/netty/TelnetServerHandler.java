@@ -18,12 +18,14 @@ package com.alibaba.dubbo.remoting.transport.netty;
 import com.alibaba.dubbo.remoting.RemotingException;
 import com.alibaba.dubbo.remoting.exchange.ExchangeChannel;
 import com.alibaba.dubbo.remoting.exchange.support.Replier;
+import org.junit.Ignore;
 
 /**
  * User: heyman
  * Date: 4/26/11
  * Time: 4:29 PM
  */
+@Ignore
 public class TelnetServerHandler implements Replier<String> {
 
     public Class<String> interest() {

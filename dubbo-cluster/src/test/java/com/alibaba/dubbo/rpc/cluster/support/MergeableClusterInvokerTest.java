@@ -26,6 +26,7 @@ import junit.framework.TestCase;
 import org.easymock.EasyMock;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.lang.reflect.InvocationHandler;
@@ -41,6 +42,7 @@ import java.util.Map;
 /**
  * @author <a href="mailto:gang.lvg@alibaba-inc.com">kimi</a>
  */
+@Ignore
 public class MergeableClusterInvokerTest {
 
     private Directory directory = EasyMock.createMock( Directory.class );

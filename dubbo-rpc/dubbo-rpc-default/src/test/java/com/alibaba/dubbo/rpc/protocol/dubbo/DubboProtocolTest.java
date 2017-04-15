@@ -24,6 +24,7 @@ import java.util.Set;
 
 import junit.framework.Assert;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.alibaba.dubbo.common.Constants;
@@ -44,6 +45,7 @@ import com.alibaba.dubbo.rpc.service.EchoService;
  * <code>ProxiesTest</code>
  */
 
+@Ignore
 public class DubboProtocolTest
 {
     private Protocol protocol = ExtensionLoader.getExtensionLoader(Protocol.class).getAdaptiveExtension();

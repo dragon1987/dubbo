@@ -21,6 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.alibaba.dubbo.common.Constants;
@@ -46,6 +47,7 @@ import com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol;
  * 
  * @author tony.chenl
  */
+@Ignore
 public class RegistryProtocolTest {
     
     final private Protocol protocol = ExtensionLoader.getExtensionLoader(Protocol.class).getAdaptiveExtension();

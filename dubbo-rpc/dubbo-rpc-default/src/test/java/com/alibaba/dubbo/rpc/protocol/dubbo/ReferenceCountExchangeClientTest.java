@@ -17,10 +17,7 @@ package com.alibaba.dubbo.rpc.protocol.dubbo;
 
 import java.lang.reflect.Field;
 
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.*;
 
 import com.alibaba.dubbo.common.Constants;
 import com.alibaba.dubbo.common.URL;
@@ -33,6 +30,7 @@ import com.alibaba.dubbo.rpc.Exporter;
 import com.alibaba.dubbo.rpc.Invoker;
 import com.alibaba.dubbo.rpc.ProxyFactory;
 
+@Ignore
 public class ReferenceCountExchangeClientTest {
     
     Exporter<?> demoExporter ;

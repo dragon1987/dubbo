@@ -35,6 +35,7 @@ import com.alibaba.dubbo.rpc.Invoker;
 import com.alibaba.dubbo.rpc.RpcException;
 import com.alibaba.dubbo.rpc.protocol.dubbo.support.ProtocolUtils;
 
+@Ignore
 public class ExplicitCallbackTest {
     
     protected Exporter<IDemoService> exporter = null;

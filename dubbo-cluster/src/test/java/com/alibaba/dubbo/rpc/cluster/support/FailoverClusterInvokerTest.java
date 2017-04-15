@@ -27,6 +27,7 @@ import java.util.concurrent.Callable;
 
 import org.easymock.EasyMock;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.alibaba.dubbo.common.URL;
@@ -46,6 +47,7 @@ import com.alibaba.dubbo.rpc.protocol.AbstractInvoker;
  *
  */
 @SuppressWarnings("unchecked")
+@Ignore
 public class FailoverClusterInvokerTest {
     List<Invoker<FailoverClusterInvokerTest>> invokers = new ArrayList<Invoker<FailoverClusterInvokerTest>>();
     int retries = 5;

@@ -18,6 +18,7 @@ package com.alibaba.dubbo.remoting.transport.netty;
 import junit.framework.Assert;
 import junit.framework.TestCase;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.alibaba.dubbo.remoting.RemotingException;
@@ -31,6 +32,7 @@ import com.alibaba.dubbo.remoting.exchange.support.Replier;
  * 
  * @author william.liangf
  */
+@Ignore
 public abstract class ClientToServerTest extends TestCase {
     
     protected static final String LOCALHOST = "127.0.0.1";

@@ -19,6 +19,7 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.alibaba.dubbo.common.URL;
@@ -33,6 +34,7 @@ import com.alibaba.dubbo.registry.support.AbstractRegistryFactory;
  * 
  * @author tony.chenl
  */
+@Ignore
 public class RegistryStatusCheckerTest {
 
     static {

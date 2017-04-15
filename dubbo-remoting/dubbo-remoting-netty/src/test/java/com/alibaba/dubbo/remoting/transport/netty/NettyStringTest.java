@@ -17,6 +17,7 @@ package com.alibaba.dubbo.remoting.transport.netty;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.alibaba.dubbo.common.URL;
@@ -29,6 +30,7 @@ import com.alibaba.dubbo.remoting.exchange.Exchangers;
  * Date: 4/26/11
  * Time: 4:13 PM
  */
+@Ignore
 public class NettyStringTest {
     static ExchangeServer server;
     static ExchangeChannel client;

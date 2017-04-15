@@ -26,12 +26,14 @@ import com.alibaba.dubbo.registry.RegistryService;
 import com.alibaba.dubbo.rpc.Exporter;
 import com.alibaba.dubbo.rpc.Protocol;
 import com.alibaba.dubbo.rpc.ProxyFactory;
+import org.junit.Ignore;
 
 /**
  * SimpleRegistryExporter
  * 
  * @author william.liangf
  */
+@Ignore
 public class SimpleRegistryExporter {
     
     private static final Protocol protocol = ExtensionLoader.getExtensionLoader(Protocol.class).getAdaptiveExtension();

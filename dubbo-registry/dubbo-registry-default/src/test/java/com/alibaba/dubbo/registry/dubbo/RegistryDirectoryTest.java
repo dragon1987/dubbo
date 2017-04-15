@@ -28,6 +28,7 @@ import javax.script.ScriptEngineManager;
 import junit.framework.Assert;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.alibaba.dubbo.common.Constants;
@@ -50,6 +51,7 @@ import com.alibaba.dubbo.rpc.cluster.router.script.ScriptRouter;
 import com.alibaba.dubbo.rpc.cluster.router.script.ScriptRouterFactory;
 
 @SuppressWarnings({ "rawtypes", "unchecked" })
+@Ignore
 public class RegistryDirectoryTest {
 
     RegistryFactory registryFactory         = ExtensionLoader.getExtensionLoader(RegistryFactory.class).getAdaptiveExtension();

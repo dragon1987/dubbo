@@ -24,6 +24,7 @@ import junit.framework.Assert;
 
 import org.junit.Before;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.alibaba.dubbo.common.Constants;
@@ -38,6 +39,7 @@ import com.alibaba.dubbo.rpc.protocol.dubbo.support.ProtocolUtils;
  * @author chao.liuc
  *
  */
+@Ignore
 public class DubboInvokerAvilableTest {
     private static DubboProtocol     protocol = DubboProtocol.getDubboProtocol();
     private static ProxyFactory proxy    = ExtensionLoader.getExtensionLoader(ProxyFactory.class).getAdaptiveExtension();

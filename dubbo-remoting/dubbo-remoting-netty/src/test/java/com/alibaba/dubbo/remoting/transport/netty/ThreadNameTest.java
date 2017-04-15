@@ -15,10 +15,7 @@
  */
 package com.alibaba.dubbo.remoting.transport.netty;
 
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 
 import com.alibaba.dubbo.common.URL;
 import com.alibaba.dubbo.remoting.Channel;
@@ -28,6 +25,7 @@ import com.alibaba.dubbo.remoting.RemotingException;
 /**
  * @author <a href="mailto:gang.lvg@alibaba-inc.com">kimi</a>
  */
+@Ignore
 public class ThreadNameTest {
 
     private NettyServer server;

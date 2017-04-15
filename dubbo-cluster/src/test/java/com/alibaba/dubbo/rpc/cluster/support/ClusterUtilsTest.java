@@ -16,6 +16,7 @@
 package com.alibaba.dubbo.rpc.cluster.support;
 
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.alibaba.dubbo.common.Constants;
@@ -24,6 +25,7 @@ import com.alibaba.dubbo.common.URL;
 /**
  * @author <a href="mailto:gang.lvg@alibaba-inc.com">kimi</a>
  */
+@Ignore
 public class ClusterUtilsTest {
 
     @Test

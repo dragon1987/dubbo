@@ -28,12 +28,14 @@ import com.alibaba.dubbo.common.utils.UrlUtils;
 import com.alibaba.dubbo.registry.NotifyListener;
 import com.alibaba.dubbo.registry.RegistryService;
 import com.alibaba.dubbo.rpc.RpcContext;
+import org.junit.Ignore;
 
 /**
  * SimpleRegistryService
  * 
  * @author william.liangf
  */
+@Ignore
 public class SimpleRegistryService extends AbstractRegistryService {
 
     private final ConcurrentMap<String, ConcurrentMap<String, URL>> remoteRegistered = new ConcurrentHashMap<String, ConcurrentMap<String, URL>>();

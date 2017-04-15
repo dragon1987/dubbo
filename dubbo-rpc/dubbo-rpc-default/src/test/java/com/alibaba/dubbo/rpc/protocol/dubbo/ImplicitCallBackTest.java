@@ -29,6 +29,7 @@ import junit.framework.Assert;
 
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.alibaba.dubbo.common.Constants;
@@ -40,6 +41,7 @@ import com.alibaba.dubbo.rpc.RpcContext;
 import com.alibaba.dubbo.rpc.StaticContext;
 import com.alibaba.dubbo.rpc.protocol.dubbo.support.ProtocolUtils;
 
+@Ignore
 public class ImplicitCallBackTest{
 
     protected Exporter<IDemoService> exporter = null;
